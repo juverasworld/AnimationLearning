@@ -1,4 +1,4 @@
-export default function AIPicker(){
+export default function FilePicker(){
     return(
         <div className="">
           FilePicker
