@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Home from './pages/Home'
-import Canvas from './Canvas'
+import Canvas from './canvas'
 import Coustomizer from './pages/Coustomizer'
 
 function App() {
