@@ -13,7 +13,7 @@ export default function FilePicker({ file, setFile, readFile }) {
           {file === ""? "NO file selected" : file.name}
         </p>
       </div>
-      <div className="mt-4 flex flex-wrap gap-36">
+      <div className="mt-4 flex flex-wrap gap-3">
         <Button
         type="outline"
         title="logo"
