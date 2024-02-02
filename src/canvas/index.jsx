@@ -12,10 +12,12 @@ export default function CanvasModel() {
     gl={{preserveDrawingBuffer:true}}
     className="w-full max-w-full h-full transition-all ease-in"
     >
-      <ambientLight intensity={0.5} />
+      <ambientLight 
+      
+      intensity={0.5} />
       <Environment preset="city" />
       <CameraRig>
-        {/* <Backdrop /> */}
+        <Backdrop />
 
         <Center>
           <Cloth />
